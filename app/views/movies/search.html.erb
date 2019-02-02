@@ -1,9 +1,0 @@
-<div class="row">
-	  <% @movies.each do |movie| %>
-	    <div class="col-sm-6 col-md-3">
-	      <div class="thumbnail">
-	        <%= image_tag(@movie.picture_url) if @movie.picture.present? %> 
-	      </div>
-	    </div>
-	  <% end %>
-	</div>

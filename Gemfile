@@ -23,8 +23,8 @@ gem 'devise'
 gem 'carrierwave', '~> 1.3', '>= 1.3.1'
 gem 'bootstrap-sass', '~> 3.2.0.2'
 gem 'jquery-rails'
-gem 'searchkick', '~> 3.1', '>= 3.1.2'
-gem 'elasticsearch', '~> 6.1'
+#gem 'searchkick', '~> 3.1', '>= 3.1.2'
+#gem 'elasticsearch', '~> 6.1'
 
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.2'
