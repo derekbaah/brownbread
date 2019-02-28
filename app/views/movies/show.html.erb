@@ -2,7 +2,7 @@
 	  <div class="panel-body">
 	    <div class="row">
 	      <div class="col-md-4">
-	        <%= image_tag(@movie.picture_url) if @movie.picture.present? %> 
+	        <%= image_tag(@movie.picture_url, width: 200) if @movie.picture.present? %> 
           <div class="star-rating" data-score= <%= @avg_review %> ></div>
 	        <em><%= "#{@reviews.length} review(s)" %></em>
 	        <div class="table-responsive">
@@ -30,7 +30,7 @@
 	              </tr>
 	            </tbody>
 	          </table>
-	          <%= link_to "Write a Review", new_movie_review_path(@movie) %>
+	          
 	        </div>
 	      </div>
 	      <div class="col-md-7 col-md-offset-1">
